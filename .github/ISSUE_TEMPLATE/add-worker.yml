@@ -1,0 +1,79 @@
+name: Add or update a Worker
+description: Suggest a public CoreClaw Worker for the directory
+title: "[Worker]: "
+labels: ["catalog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the directory. Please provide the public Worker details below.
+
+  - type: input
+    id: title
+    attributes:
+      label: Worker title
+      placeholder: Google Maps Scraper
+    validations:
+      required: true
+
+  - type: input
+    id: path
+    attributes:
+      label: Worker path
+      description: Use the stable owner/name path.
+      placeholder: coreclaw/google-maps-scraper
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Public Worker URL
+      placeholder: https://www.coreclaw.com/owner/worker-name
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options:
+        - E-Commerce & Marketplaces
+        - Social & Creator Data
+        - Search, Maps & SEO
+        - Jobs & Recruiting
+        - Lead Generation & Company Intelligence
+        - AI & Research
+        - Developer & Web Utilities
+        - Finance & Markets
+        - Real Estate
+        - Education & Knowledge
+        - News & Media
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Data source
+      placeholder: Google Maps
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain what structured data this Worker returns.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This Worker is publicly accessible in the CoreClaw Store.
+          required: true
+        - label: I checked that this Worker path is not already listed.
+          required: true
