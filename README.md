@@ -16,6 +16,7 @@
 
 <p align="center">
   <a href="https://github.com/cporter202/coreclaw-api-directory/actions/workflows/validate-catalog.yml"><img alt="Validate Catalog" src="https://github.com/cporter202/coreclaw-api-directory/actions/workflows/validate-catalog.yml/badge.svg"></a>
+  <a href="https://github.com/cporter202/coreclaw-api-directory/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/cporter202/coreclaw-api-directory?style=for-the-badge&logo=github&label=Stars&color=f59e0b"></a>
   <img alt="118 public Workers" src="https://img.shields.io/badge/Public_Workers-118-6366f1?style=for-the-badge">
   <img alt="11 use-case categories" src="https://img.shields.io/badge/Categories-11-06b6d4?style=for-the-badge">
   <img alt="29 data sources" src="https://img.shields.io/badge/Data_Sources-29-8b5cf6?style=for-the-badge">
@@ -43,6 +44,16 @@ A polished, community-maintained directory of **118 public CoreClaw Workers** fo
     <td align="center"><strong>100%</strong><br><sub>direct Worker links</sub></td>
   </tr>
 </table>
+
+## Star history
+
+<p align="center">
+  <a href="https://github.com/cporter202/coreclaw-api-directory/stargazers">
+    <img src="assets/star-history.svg" alt="CoreClaw API Directory star history chart" width="720">
+  </a>
+</p>
+
+<p align="center"><sub>Updated daily from GitHub. Like the directory? Star the repository to help more developers discover it.</sub></p>
 
 CoreClaw calls these integrations **Workers**. Each Worker is a runnable web-data workflow with its own input schema and structured output, exposed through CoreClaw’s shared REST and MCP integration layers.
 
