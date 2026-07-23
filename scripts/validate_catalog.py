@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "data" / "workers.csv"
 README_PATH = ROOT / "README.md"
 BANNER_PATH = ROOT / "assets" / "coreclaw-api-directory-banner.svg"
-CATEGORY_ROOT = ROOT / "categories"
+CATEGORY_ROOT = ROOT
 CATEGORY_SLUGS = {name: slug for name, slug, _emoji, _summary in CATEGORIES}
 
 REQUIRED_FIELDS = {
@@ -73,9 +73,6 @@ def main() -> None:
     if missing_from_readme:
         fail(f"README is missing {len(missing_from_readme)} Worker paths")
 
-    category_index = CATEGORY_ROOT / "README.md"
-    if not category_index.is_file():
-        fail("missing categories/README.md")
     for row in rows:
         category_slug = CATEGORY_SLUGS.get(row["category"])
         if category_slug is None:

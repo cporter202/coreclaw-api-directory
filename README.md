@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="categories/README.md"><strong>Browse categories</strong></a>
+  <a href="#categories"><strong>Browse categories</strong></a>
   ·
   <a href="#directory">All 118 APIs</a>
   ·
@@ -33,9 +33,6 @@ A polished, community-maintained directory of **118 public CoreClaw Workers** fo
   <a href="https://coreclaw.com?fpr=chris69"><strong>Explore CoreClaw →</strong></a>
 </p>
 
-> [!NOTE]
-> **Affiliate disclosure:** Worker and CoreClaw links in this directory include the maintainer’s FirstPromoter referral parameter, `fpr=chris69`. If you create an account or purchase through one of these links, the maintainer may receive a commission at no additional cost to you. This helps support continued maintenance of the directory.
-
 ## At a glance
 
 <table>
@@ -56,17 +53,17 @@ Choose a category to open its dedicated repository folder. Inside each category 
 
 | | Category | APIs | What you can collect |
 |---:|---|---:|---|
-| 🛍️ | [**E-Commerce & Marketplaces**](categories/e-commerce-marketplaces/README.md) | **28** | Products, pricing, reviews, stores, suppliers and marketplace intelligence. |
-| 🌐 | [**Social & Creator Data**](categories/social-creator-data/README.md) | **47** | Profiles, posts, comments, creators, events and audience signals. |
-| 🔎 | [**Search, Maps & SEO**](categories/search-maps-seo/README.md) | **5** | SERPs, maps, local business data, keywords and SEO intelligence. |
-| 💼 | [**Jobs & Recruiting**](categories/jobs-recruiting/README.md) | **12** | Job listings, candidate discovery, employers, salaries and recruiting data. |
-| 🎯 | [**Lead Generation & Company Intelligence**](categories/lead-generation-company-intelligence/README.md) | **11** | Companies, decision-makers, suppliers, business emails and sales prospects. |
-| ✨ | [**AI & Research**](categories/ai-research/README.md) | **3** | AI answers, cited sources and structured research workflows. |
-| 🧰 | [**Developer & Web Utilities**](categories/developer-web-utilities/README.md) | **7** | Browser automation, extraction, screenshots, parsing and data utilities. |
-| 📈 | [**Finance & Markets**](categories/finance-markets/README.md) | **1** | Public-market, company and financial time-series data. |
-| 🏠 | [**Real Estate**](categories/real-estate/README.md) | **1** | Property listings, valuations, history and location data. |
-| 📚 | [**Education & Knowledge**](categories/education-knowledge/README.md) | **2** | Courses, books, metadata and learning catalog intelligence. |
-| 📰 | [**News & Media**](categories/news-media/README.md) | **1** | News articles, media pages and publication monitoring. |
+| 🛍️ | [**E-Commerce & Marketplaces**](e-commerce-marketplaces/README.md) | **28** | Products, pricing, reviews, stores, suppliers and marketplace intelligence. |
+| 🌐 | [**Social & Creator Data**](social-creator-data/README.md) | **47** | Profiles, posts, comments, creators, events and audience signals. |
+| 🔎 | [**Search, Maps & SEO**](search-maps-seo/README.md) | **5** | SERPs, maps, local business data, keywords and SEO intelligence. |
+| 💼 | [**Jobs & Recruiting**](jobs-recruiting/README.md) | **12** | Job listings, candidate discovery, employers, salaries and recruiting data. |
+| 🎯 | [**Lead Generation & Company Intelligence**](lead-generation-company-intelligence/README.md) | **11** | Companies, decision-makers, suppliers, business emails and sales prospects. |
+| ✨ | [**AI & Research**](ai-research/README.md) | **3** | AI answers, cited sources and structured research workflows. |
+| 🧰 | [**Developer & Web Utilities**](developer-web-utilities/README.md) | **7** | Browser automation, extraction, screenshots, parsing and data utilities. |
+| 📈 | [**Finance & Markets**](finance-markets/README.md) | **1** | Public-market, company and financial time-series data. |
+| 🏠 | [**Real Estate**](real-estate/README.md) | **1** | Property listings, valuations, history and location data. |
+| 📚 | [**Education & Knowledge**](education-knowledge/README.md) | **2** | Courses, books, metadata and learning catalog intelligence. |
+| 📰 | [**News & Media**](news-media/README.md) | **1** | News articles, media pages and publication monitoring. |
 
 <p align="center"><a href="#directory"><strong>Open the complete categorized API directory →</strong></a></p>
 
@@ -606,7 +603,15 @@ This snapshot contains every unique public Store Worker returned by CoreClaw whe
 ---
 
 <p align="center">
+  <a href="https://coreclaw.com?fpr=chris69">
+    <img src="assets/coreclaw-web-data-apis.png" alt="CoreClaw web data APIs and ready-to-use scrapers" width="100%">
+  </a>
+</p>
+
+<p align="center">
   <strong>Built for people who want fresh web data without rebuilding every scraper from scratch.</strong>
   <br>
   <sub>Unofficial community resource. Not affiliated with or endorsed by CoreClaw or Apex DataWorks Limited.</sub>
+  <br>
+  <sub>Some links are affiliate links; the maintainer may earn a commission at no additional cost to you.</sub>
 </p>

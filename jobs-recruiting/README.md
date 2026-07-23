@@ -1,4 +1,4 @@
-<p align="center"><a href="../README.md">← All categories</a> · <a href="../../README.md">Main directory</a></p>
+<p align="center"><a href="../README.md#categories">← All categories</a> · <a href="../README.md">Main directory</a></p>
 
 # 💼 Jobs & Recruiting
 
@@ -49,4 +49,4 @@ Job listings, candidate discovery, employers, salaries and recruiting data.
 > [!NOTE]
 > Links open the exact CoreClaw Worker page and include the maintainer’s affiliate attribution. See the main README for the full disclosure.
 
-<p align="center"><a href="../README.md">← Browse all categories</a> · <a href="../../README.md#directory">Complete API directory</a></p>
+<p align="center"><a href="../README.md#categories">← Browse all categories</a> · <a href="../README.md#directory">Complete API directory</a></p>

@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "data" / "workers.csv"
-CATEGORY_ROOT = ROOT / "categories"
+CATEGORY_ROOT = ROOT
 
 CATEGORIES = (
     (
@@ -104,39 +104,6 @@ def load_workers() -> list[dict[str, str]]:
     return workers
 
 
-def render_index(grouped: dict[str, list[dict[str, str]]]) -> str:
-    lines = [
-        '<p align="center"><a href="../README.md">← Main directory</a></p>',
-        "",
-        "# CoreClaw API Categories",
-        "",
-        "Browse all **118 CoreClaw Worker APIs** through 11 focused categories. "
-        "Open a category to see every matching API, grouped by source.",
-        "",
-        "| | Category | APIs | Sources |",
-        "|---:|---|---:|---:|",
-    ]
-    for name, slug, emoji, _summary in CATEGORIES:
-        rows = grouped[name]
-        source_count = len({row["source"] for row in rows})
-        lines.append(
-            f"| {emoji} | [**{name}**]({slug}/README.md) | "
-            f"**{len(rows)}** | **{source_count}** |"
-        )
-    lines.extend(
-        [
-            "",
-            "> [!NOTE]",
-            "> Worker links include the maintainer’s `fpr=chris69` referral parameter. "
-            "Purchases through these links may support this directory at no additional cost to you.",
-            "",
-            '<p align="center"><a href="../README.md#directory"><strong>View the complete directory →</strong></a></p>',
-            "",
-        ]
-    )
-    return "\n".join(lines)
-
-
 def render_category(
     name: str,
     emoji: str,
@@ -148,8 +115,8 @@ def render_category(
         sources[worker["source"]].append(worker)
 
     lines = [
-        '<p align="center"><a href="../README.md">← All categories</a> · '
-        '<a href="../../README.md">Main directory</a></p>',
+        '<p align="center"><a href="../README.md#categories">← All categories</a> · '
+        '<a href="../README.md">Main directory</a></p>',
         "",
         f"# {emoji} {name}",
         "",
@@ -191,8 +158,8 @@ def render_category(
             "> Links open the exact CoreClaw Worker page and include the maintainer’s "
             "affiliate attribution. See the main README for the full disclosure.",
             "",
-            '<p align="center"><a href="../README.md">← Browse all categories</a> · '
-            '<a href="../../README.md#directory">Complete API directory</a></p>',
+            '<p align="center"><a href="../README.md#categories">← Browse all categories</a> · '
+            '<a href="../README.md#directory">Complete API directory</a></p>',
             "",
         ]
     )
@@ -210,7 +177,7 @@ def expected_pages() -> dict[Path, str]:
     if unknown:
         raise SystemExit(f"Unknown categories in CSV: {', '.join(unknown)}")
 
-    pages = {CATEGORY_ROOT / "README.md": render_index(grouped)}
+    pages = {}
     for name, slug, emoji, summary in CATEGORIES:
         pages[CATEGORY_ROOT / slug / "README.md"] = render_category(
             name, emoji, summary, grouped[name]
