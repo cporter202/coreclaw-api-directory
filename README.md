@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="#directory"><strong>Browse the directory</strong></a>
+  <a href="#categories"><strong>Browse categories</strong></a>
+  ·
+  <a href="#directory">All 118 APIs</a>
   ·
   <a href="#featured-workers">Featured Workers</a>
   ·
@@ -45,19 +47,12 @@ A polished, community-maintained directory of **118 public CoreClaw Workers** fo
   </tr>
 </table>
 
-## Star history
-
-<p align="center">
-  <a href="https://github.com/cporter202/coreclaw-api-directory/stargazers">
-    <img src="assets/star-history.svg" alt="CoreClaw API Directory star history chart" width="720">
-  </a>
-</p>
-
-<p align="center"><sub>Updated daily from GitHub. Like the directory? Star the repository to help more developers discover it.</sub></p>
-
 CoreClaw calls these integrations **Workers**. Each Worker is a runnable web-data workflow with its own input schema and structured output, exposed through CoreClaw’s shared REST and MCP integration layers.
 
-## Explore by use case
+<a id="categories"></a>
+## Browse APIs by category
+
+Choose a category to jump to its expandable section. Inside each category you’ll find every matching API, grouped by data source, with a description and a direct CoreClaw Worker link.
 
 | | Category | APIs | What you can collect |
 |---:|---|---:|---|
@@ -72,6 +67,18 @@ CoreClaw calls these integrations **Workers**. Each Worker is a runnable web-dat
 | 🏠 | [**Real Estate**](#real-estate) | **1** | Property listings, valuations, history and location data. |
 | 📚 | [**Education & Knowledge**](#knowledge) | **2** | Courses, books, metadata and learning catalog intelligence. |
 | 📰 | [**News & Media**](#news) | **1** | News articles, media pages and publication monitoring. |
+
+<p align="center"><a href="#directory"><strong>Open the complete categorized API directory →</strong></a></p>
+
+## Star history
+
+<p align="center">
+  <a href="https://github.com/cporter202/coreclaw-api-directory/stargazers">
+    <img src="assets/star-history.svg" alt="CoreClaw API Directory star history chart" width="720">
+  </a>
+</p>
+
+<p align="center"><sub>Updated daily from GitHub. Like the directory? Star the repository to help more developers discover it.</sub></p>
 
 ## Featured Workers
 
