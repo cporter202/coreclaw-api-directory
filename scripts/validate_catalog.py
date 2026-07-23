@@ -7,11 +7,15 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
 
+from generate_category_pages import CATEGORIES
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "data" / "workers.csv"
 README_PATH = ROOT / "README.md"
 BANNER_PATH = ROOT / "assets" / "coreclaw-api-directory-banner.svg"
+CATEGORY_ROOT = ROOT / "categories"
+CATEGORY_SLUGS = {name: slug for name, slug, _emoji, _summary in CATEGORIES}
 
 REQUIRED_FIELDS = {
     "title",
@@ -68,6 +72,22 @@ def main() -> None:
     missing_from_readme = [path for path in paths if path not in readme]
     if missing_from_readme:
         fail(f"README is missing {len(missing_from_readme)} Worker paths")
+
+    category_index = CATEGORY_ROOT / "README.md"
+    if not category_index.is_file():
+        fail("missing categories/README.md")
+    for row in rows:
+        category_slug = CATEGORY_SLUGS.get(row["category"])
+        if category_slug is None:
+            fail(f"unknown category: {row['category']}")
+        category_page = CATEGORY_ROOT / category_slug / "README.md"
+        if not category_page.is_file():
+            fail(f"missing category page: {category_page.relative_to(ROOT)}")
+        if row["path"] not in category_page.read_text(encoding="utf-8"):
+            fail(
+                f"{category_page.relative_to(ROOT)} is missing Worker path: "
+                f"{row['path']}"
+            )
 
     try:
         root = ET.parse(BANNER_PATH).getroot()

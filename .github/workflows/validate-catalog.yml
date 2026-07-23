@@ -22,4 +22,6 @@ jobs:
           python-version: "3.12"
 
       - name: Validate directory data and assets
-        run: python scripts/validate_catalog.py
+        run: |
+          python scripts/generate_category_pages.py --check
+          python scripts/validate_catalog.py

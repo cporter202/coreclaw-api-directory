@@ -47,16 +47,18 @@ Choose the category that best describes the Worker’s primary use case. Use `so
 From the repository root:
 
 ```bash
+python scripts/generate_category_pages.py
+python scripts/generate_category_pages.py --check
 python scripts/validate_catalog.py
 ```
 
-The validator checks required CSV fields, unique Worker paths, affiliate URLs, README coverage and the SVG banner.
+Regenerate the category pages after changing `data/workers.csv`. The checks verify required CSV fields, unique Worker paths, affiliate URLs, main README coverage, category-page coverage and the SVG banner.
 
 ## Pull-request checklist
 
 - [ ] The Worker is publicly accessible.
 - [ ] The path is unique.
 - [ ] The direct URL contains `?fpr=chris69`.
-- [ ] The README and CSV are both updated.
+- [ ] The CSV, main README and generated category pages are updated.
 - [ ] The category and source are accurate.
-- [ ] `python scripts/validate_catalog.py` passes.
+- [ ] Both category-page and catalog validation commands pass.

@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="#categories"><strong>Browse categories</strong></a>
+  <a href="categories/README.md"><strong>Browse categories</strong></a>
   ·
   <a href="#directory">All 118 APIs</a>
   ·
@@ -52,21 +52,21 @@ CoreClaw calls these integrations **Workers**. Each Worker is a runnable web-dat
 <a id="categories"></a>
 ## Browse APIs by category
 
-Choose a category to jump to its expandable section. Inside each category you’ll find every matching API, grouped by data source, with a description and a direct CoreClaw Worker link.
+Choose a category to open its dedicated repository folder. Inside each category you’ll find every matching API, grouped by data source, with a description and a direct CoreClaw Worker link. The [complete expandable directory](#directory) is also available on this page.
 
 | | Category | APIs | What you can collect |
 |---:|---|---:|---|
-| 🛍️ | [**E-Commerce & Marketplaces**](#commerce) | **28** | Products, pricing, reviews, stores, suppliers and marketplace intelligence. |
-| 🌐 | [**Social & Creator Data**](#social) | **47** | Profiles, posts, comments, creators, events and audience signals. |
-| 🔎 | [**Search, Maps & SEO**](#search) | **5** | SERPs, maps, local business data, keywords and SEO intelligence. |
-| 💼 | [**Jobs & Recruiting**](#jobs) | **12** | Job listings, candidate discovery, employers, salaries and recruiting data. |
-| 🎯 | [**Lead Generation & Company Intelligence**](#leads) | **11** | Companies, decision-makers, suppliers, business emails and sales prospects. |
-| ✨ | [**AI & Research**](#ai) | **3** | AI answers, cited sources and structured research workflows. |
-| 🧰 | [**Developer & Web Utilities**](#developer-tools) | **7** | Browser automation, extraction, screenshots, parsing and data utilities. |
-| 📈 | [**Finance & Markets**](#finance) | **1** | Public-market, company and financial time-series data. |
-| 🏠 | [**Real Estate**](#real-estate) | **1** | Property listings, valuations, history and location data. |
-| 📚 | [**Education & Knowledge**](#knowledge) | **2** | Courses, books, metadata and learning catalog intelligence. |
-| 📰 | [**News & Media**](#news) | **1** | News articles, media pages and publication monitoring. |
+| 🛍️ | [**E-Commerce & Marketplaces**](categories/e-commerce-marketplaces/README.md) | **28** | Products, pricing, reviews, stores, suppliers and marketplace intelligence. |
+| 🌐 | [**Social & Creator Data**](categories/social-creator-data/README.md) | **47** | Profiles, posts, comments, creators, events and audience signals. |
+| 🔎 | [**Search, Maps & SEO**](categories/search-maps-seo/README.md) | **5** | SERPs, maps, local business data, keywords and SEO intelligence. |
+| 💼 | [**Jobs & Recruiting**](categories/jobs-recruiting/README.md) | **12** | Job listings, candidate discovery, employers, salaries and recruiting data. |
+| 🎯 | [**Lead Generation & Company Intelligence**](categories/lead-generation-company-intelligence/README.md) | **11** | Companies, decision-makers, suppliers, business emails and sales prospects. |
+| ✨ | [**AI & Research**](categories/ai-research/README.md) | **3** | AI answers, cited sources and structured research workflows. |
+| 🧰 | [**Developer & Web Utilities**](categories/developer-web-utilities/README.md) | **7** | Browser automation, extraction, screenshots, parsing and data utilities. |
+| 📈 | [**Finance & Markets**](categories/finance-markets/README.md) | **1** | Public-market, company and financial time-series data. |
+| 🏠 | [**Real Estate**](categories/real-estate/README.md) | **1** | Property listings, valuations, history and location data. |
+| 📚 | [**Education & Knowledge**](categories/education-knowledge/README.md) | **2** | Courses, books, metadata and learning catalog intelligence. |
+| 📰 | [**News & Media**](categories/news-media/README.md) | **1** | News articles, media pages and publication monitoring. |
 
 <p align="center"><a href="#directory"><strong>Open the complete categorized API directory →</strong></a></p>
 
