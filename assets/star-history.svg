@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
   <title id="title">CoreClaw API Directory star history</title>
-  <desc id="desc">Daily GitHub star count, currently 122 stars.</desc>
+  <desc id="desc">Daily GitHub star count, currently 127 stars.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070B1D"/><stop offset=".55" stop-color="#111B46"/><stop offset="1" stop-color="#0B3A4A"/>
@@ -20,14 +20,14 @@
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
     <text x="60" y="61" fill="#C7D2FE" font-size="16" font-weight="700" letter-spacing="2.4">STAR GROWTH</text>
     <text x="60" y="101" fill="#FFFFFF" font-size="30" font-weight="800">CoreClaw API Directory</text>
-    <text x="1138" y="65" text-anchor="end" fill="#FBBF24" font-size="34" font-weight="800">★ 122</text>
+    <text x="1138" y="65" text-anchor="end" fill="#FBBF24" font-size="34" font-weight="800">★ 127</text>
     <text x="1138" y="94" text-anchor="end" fill="#A5B4FC" font-size="14">CURRENT STARS</text>
-    <line x1="92" y1="132.0" x2="1135" y2="132.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="137.0" text-anchor="end" fill="#818CF8" font-size="14">124</text><line x1="92" y1="184.0" x2="1135" y2="184.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="189.0" text-anchor="end" fill="#818CF8" font-size="14">93</text><line x1="92" y1="236.0" x2="1135" y2="236.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="241.0" text-anchor="end" fill="#818CF8" font-size="14">62</text><line x1="92" y1="288.0" x2="1135" y2="288.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="293.0" text-anchor="end" fill="#818CF8" font-size="14">31</text><line x1="92" y1="340.0" x2="1135" y2="340.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="345.0" text-anchor="end" fill="#818CF8" font-size="14">0</text>
-    <path d="M 92.0 340 L 92.0 338.3 L 222.4 335.0 L 352.8 303.1 L 483.1 246.1 L 613.5 192.4 L 743.9 163.9 L 874.2 147.1 L 1004.6 140.4 L 1135.0 135.4 L 1135.0 340 Z" fill="url(#area)"/>
-    <polyline points="92.0,338.3 222.4,335.0 352.8,303.1 483.1,246.1 613.5,192.4 743.9,163.9 874.2,147.1 1004.6,140.4 1135.0,135.4" fill="none" stroke="url(#line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
-    <circle cx="92.0" cy="338.3" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="222.4" cy="335.0" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="352.8" cy="303.1" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="483.1" cy="246.1" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="613.5" cy="192.4" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="743.9" cy="163.9" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="874.2" cy="147.1" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="1004.6" cy="140.4" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="1135.0" cy="135.4" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/>
+    <line x1="92" y1="132.0" x2="1135" y2="132.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="137.0" text-anchor="end" fill="#818CF8" font-size="14">128</text><line x1="92" y1="184.0" x2="1135" y2="184.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="189.0" text-anchor="end" fill="#818CF8" font-size="14">96</text><line x1="92" y1="236.0" x2="1135" y2="236.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="241.0" text-anchor="end" fill="#818CF8" font-size="14">64</text><line x1="92" y1="288.0" x2="1135" y2="288.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="293.0" text-anchor="end" fill="#818CF8" font-size="14">32</text><line x1="92" y1="340.0" x2="1135" y2="340.0" stroke="#A5B4FC" stroke-opacity=".12"/><text x="74" y="345.0" text-anchor="end" fill="#818CF8" font-size="14">0</text>
+    <path d="M 92.0 340 L 92.0 338.4 L 207.9 335.1 L 323.8 304.2 L 439.7 249.0 L 555.6 197.0 L 671.4 169.4 L 787.3 153.1 L 903.2 146.6 L 1019.1 141.8 L 1135.0 133.6 L 1135.0 340 Z" fill="url(#area)"/>
+    <polyline points="92.0,338.4 207.9,335.1 323.8,304.2 439.7,249.0 555.6,197.0 671.4,169.4 787.3,153.1 903.2,146.6 1019.1,141.8 1135.0,133.6" fill="none" stroke="url(#line)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="92.0" cy="338.4" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="207.9" cy="335.1" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="323.8" cy="304.2" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="439.7" cy="249.0" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="555.6" cy="197.0" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="671.4" cy="169.4" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="787.3" cy="153.1" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="903.2" cy="146.6" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="1019.1" cy="141.8" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/><circle cx="1135.0" cy="133.6" r="4" fill="#22D3EE" stroke="#07101F" stroke-width="2"/>
     <text x="92" y="380" fill="#A5B4FC" font-size="14">2026-07-22</text>
-    <text x="1135" y="380" text-anchor="end" fill="#A5B4FC" font-size="14">2026-07-30</text>
+    <text x="1135" y="380" text-anchor="end" fill="#A5B4FC" font-size="14">2026-07-31</text>
     <text x="600" y="409" text-anchor="middle" fill="#818CF8" font-size="13">Daily snapshots recorded by this repository</text>
   </g>
 </svg>
