@@ -1,0 +1,158 @@
+# CoreClaw API Directory
+
+> 118 production-ready API workers for web scraping, data extraction, and automation.
+> Browse by category: E-Commerce, Social Media, Search/Maps, Jobs, Lead Generation, AI/Research, Developer Tools, Finance, Real Estate, Education, News.
+
+## Categories
+- E-Commerce & Marketplaces: Amazon Price, Amazon Product Scraper (Prices, Reviews & Listings), Amazon Reviews, Amazon ASIN Lookup, Amazon Best Sellers, Amazon Keyword Search, eBay Product Data, eBay Keyword Search, Walmart Product Scraper (by Keywords), Walmart Product Scraper (by URL), Shopify Product, Shopify Store Data, TikTok Shop Product, Etsy Product, AliExpress Product, Alibaba Supplier, Best Buy Product scrapers
+- Social & Creator Data: Instagram Profile Data, Instagram Post, Instagram Reels Video, Instagram Hashtag, TikTok Profile Data, TikTok Video, TikTok Search, Twitter Profile Scraper (by Username), Twitter Post Scraper (by Post URL), Twitter/X Search, Facebook Post, Facebook Profile, Facebook Group, Reddit, Reddit Subreddit, YouTube Channel, YouTube Video, YouTube Search, YouTube Comments, LinkedIn Post, Pinterest scrapers
+- Search, Maps & SEO: Google Search Results (SERP), Google Maps, Google Maps Reviews, Google News, Bing Search, DuckDuckGo Search, Yelp Business, BBB Business scrapers
+- Jobs & Recruiting: LinkedIn Jobs Search, LinkedIn Company, LinkedIn Candidate Search (No Cookies), Indeed Job Search, Indeed Company, Glassdoor Jobs, Glassdoor Salary, ZipRecruiter Job, Dice Tech Job, RemoteOK Job, We Work Remotely scrapers
+- Lead Generation: Google Maps Lead Finder, Amazon Seller, Crunchbase Company, Clearbit Company Lookup, LinkedIn Sales Navigator, Apollo.io Contact, Sales Genie Lead, Hunter.io Email Finder, Snovio Email, Domain WHOIS, LinkedIn Group, Company Website scrapers
+- AI & Research: Google AI Answers, ChatGPT Response, Claude Response, Perplexity AI, Google Scholar, arXiv Paper, Semantic Scholar, PubMed scrapers
+- Developer Utilities: SEO Audit Tool, On-Page Content Checker, Username Finder, Website Screenshot, PDF Text Extractor, HTML to Markdown Converter, JavaScript Renderer, IP Address Lookup, QR Code Generator, Website Availability Checker, Color Palette Extractor scrapers
+- Finance & Markets: Financial Data, Stock Price, SEC Filing, Crypto Price, Forex Rate, Earnings Call, Insider Trading, Financial News scrapers
+- Real Estate: Zillow Property, Redfin Property, Realtor.com, Airbnb Listing, Property Tax Data scrapers
+- Education & Knowledge: Online Course, Book Metadata, University Program, Scholarship, Certification scrapers
+- News & Media: BBC News, CNN News, Reuters News, TechCrunch, Hacker News, New York Times, The Guardian, Medium Article, Substack Newsletter, RSS Feed, Podcast Episode, Press Release scrapers
+
+## Category Pages
+- E-Commerce & Marketplaces: https://coreclaw.netlify.app/categories/e-commerce.html
+- Social & Creator Data: https://coreclaw.netlify.app/categories/social.html
+- Search, Maps & SEO: https://coreclaw.netlify.app/categories/search.html
+- Jobs & Recruiting: https://coreclaw.netlify.app/categories/jobs.html
+- Lead Generation: https://coreclaw.netlify.app/categories/leads.html
+- AI & Research: https://coreclaw.netlify.app/categories/ai-research.html
+- Developer Utilities: https://coreclaw.netlify.app/categories/devtools.html
+- Finance & Markets: https://coreclaw.netlify.app/categories/finance.html
+- Real Estate: https://coreclaw.netlify.app/categories/real-estate.html
+- Education & Knowledge: https://coreclaw.netlify.app/categories/education.html
+- News & Media: https://coreclaw.netlify.app/categories/news.html
+
+## Workers
+- Amazon Price Scraper: https://coreclaw.netlify.app/workers/amazon-product-scraper.html
+- Amazon Product Scraper (Prices, Reviews & Listings): https://coreclaw.netlify.app/workers/amazon-global-product-scraper.html
+- Amazon Reviews Scraper: https://coreclaw.netlify.app/workers/amazon-reviews-scraper.html
+- Amazon ASIN Lookup: https://coreclaw.netlify.app/workers/amazon-asin-scraper.html
+- Amazon Best Sellers Scraper: https://coreclaw.netlify.app/workers/amazon-bestsellers-scraper.html
+- Amazon Keyword Search Scraper: https://coreclaw.netlify.app/workers/amazon-keyword-scraper.html
+- eBay Product Data Scraper: https://coreclaw.netlify.app/workers/ebay-scraper-tool.html
+- eBay Keyword Search Scraper: https://coreclaw.netlify.app/workers/ebay-keyword-scraper.html
+- Walmart Product Scraper (by Keywords): https://coreclaw.netlify.app/workers/walmart-product-scraper.html
+- Walmart Product Scraper (by URL): https://coreclaw.netlify.app/workers/walmart-product-by-url.html
+- Shopify Product Scraper: https://coreclaw.netlify.app/workers/shopify-scraper.html
+- Shopify Store Data Scraper: https://coreclaw.netlify.app/workers/shopify-store-scraper.html
+- TikTok Shop Product Scraper: https://coreclaw.netlify.app/workers/tiktok-shop-scraper.html
+- Etsy Product Scraper: https://coreclaw.netlify.app/workers/etsy-product-scraper.html
+- AliExpress Product Scraper: https://coreclaw.netlify.app/workers/aliexpress-scraper.html
+- Alibaba Supplier Scraper: https://coreclaw.netlify.app/workers/alibaba-scraper.html
+- Best Buy Product Scraper: https://coreclaw.netlify.app/workers/bestbuy-scraper.html
+- Instagram Profile Data Scraper: https://coreclaw.netlify.app/workers/instagram-profile-scraper.html
+- Instagram Post Scraper: https://coreclaw.netlify.app/workers/instagram-post-scraper.html
+- Instagram Reels Video Scraper: https://coreclaw.netlify.app/workers/instagram-reel-scraper.html
+- Instagram Hashtag Scraper: https://coreclaw.netlify.app/workers/instagram-hashtag-scraper.html
+- TikTok Profile Data Scraper: https://coreclaw.netlify.app/workers/tiktok-profile-scraper.html
+- TikTok Video Scraper: https://coreclaw.netlify.app/workers/tiktok-posts-scraper.html
+- TikTok Search Scraper: https://coreclaw.netlify.app/workers/tiktok-search-scraper.html
+- Twitter Profile Scraper (by Username): https://coreclaw.netlify.app/workers/twitter-profile-scraper.html
+- Twitter Post Scraper (by Post URL): https://coreclaw.netlify.app/workers/twitter-post-scraper.html
+- Twitter/X Search Scraper: https://coreclaw.netlify.app/workers/twitter-search-scraper.html
+- Facebook Post Scraper: https://coreclaw.netlify.app/workers/facebook-post-scraper.html
+- Facebook Profile Scraper: https://coreclaw.netlify.app/workers/facebook-profile-scraper.html
+- Facebook Group Scraper: https://coreclaw.netlify.app/workers/facebook-group-scraper.html
+- Reddit Scraper: https://coreclaw.netlify.app/workers/reddit-scraper.html
+- Reddit Subreddit Scraper: https://coreclaw.netlify.app/workers/reddit-subreddit-scraper.html
+- YouTube Channel Scraper: https://coreclaw.netlify.app/workers/youtube-channel-scraper.html
+- YouTube Video Scraper: https://coreclaw.netlify.app/workers/youtube-scraper.html
+- YouTube Search Scraper: https://coreclaw.netlify.app/workers/youtube-search-scraper.html
+- YouTube Comments Scraper: https://coreclaw.netlify.app/workers/youtube-comments-scraper.html
+- LinkedIn Post Scraper: https://coreclaw.netlify.app/workers/linkedin-post-scraper.html
+- Pinterest Scraper: https://coreclaw.netlify.app/workers/pinterest-scraper.html
+- Google Search Results (SERP) Scraper: https://coreclaw.netlify.app/workers/google-search-scraper.html
+- Google Maps Scraper: https://coreclaw.netlify.app/workers/google-maps-scraper.html
+- Google Maps Reviews Scraper: https://coreclaw.netlify.app/workers/google-maps-reviews-scraper.html
+- Google News Scraper: https://coreclaw.netlify.app/workers/google-news-scraper.html
+- Bing Search Scraper: https://coreclaw.netlify.app/workers/bing-search-scraper.html
+- DuckDuckGo Search Scraper: https://coreclaw.netlify.app/workers/duckduckgo-scraper.html
+- Yelp Business Scraper: https://coreclaw.netlify.app/workers/yelp-scraper.html
+- BBB Business Scraper: https://coreclaw.netlify.app/workers/bbb-scraper.html
+- LinkedIn Jobs Search Scraper: https://coreclaw.netlify.app/workers/linkedin-jobs-scraper.html
+- LinkedIn Company Scraper: https://coreclaw.netlify.app/workers/linkedin-company-scraper.html
+- LinkedIn Candidate Search (No Cookies): https://coreclaw.netlify.app/workers/linkedin-candidate-search.html
+- Indeed Job Search Scraper: https://coreclaw.netlify.app/workers/indeed-job-scraper.html
+- Indeed Company Scraper: https://coreclaw.netlify.app/workers/indeed-company-scraper.html
+- Glassdoor Jobs Scraper: https://coreclaw.netlify.app/workers/glassdoor-scraper.html
+- Glassdoor Salary Scraper: https://coreclaw.netlify.app/workers/glassdoor-salary-scraper.html
+- ZipRecruiter Job Scraper: https://coreclaw.netlify.app/workers/ziprecruiter-scraper.html
+- Dice Tech Job Scraper: https://coreclaw.netlify.app/workers/dice-job-scraper.html
+- RemoteOK Job Scraper: https://coreclaw.netlify.app/workers/remoteok-scraper.html
+- We Work Remotely Scraper: https://coreclaw.netlify.app/workers/weworkremotely-scraper.html
+- Google Maps Lead Finder: https://coreclaw.netlify.app/workers/google-maps-lead-finder.html
+- Amazon Seller Scraper: https://coreclaw.netlify.app/workers/amazon-seller-scraper.html
+- Crunchbase Company Scraper: https://coreclaw.netlify.app/workers/crunchbase-scraper.html
+- Clearbit Company Lookup: https://coreclaw.netlify.app/workers/clearbit-scraper.html
+- LinkedIn Sales Navigator Scraper: https://coreclaw.netlify.app/workers/linkedin-sales-navigator-scraper.html
+- Apollo.io Contact Scraper: https://coreclaw.netlify.app/workers/apollo-scraper.html
+- Sales Genie Lead Scraper: https://coreclaw.netlify.app/workers/salesgenie-scraper.html
+- Hunter.io Email Finder: https://coreclaw.netlify.app/workers/hunter-scraper.html
+- Snovio Email Scraper: https://coreclaw.netlify.app/workers/snovio-scraper.html
+- Domain WHOIS Scraper: https://coreclaw.netlify.app/workers/domain-whois-scraper.html
+- LinkedIn Group Scraper: https://coreclaw.netlify.app/workers/linkedin-group-scraper.html
+- Company Website Scraper: https://coreclaw.netlify.app/workers/company-website-scraper.html
+- Google AI Answers Scraper: https://coreclaw.netlify.app/workers/google-ai-scraper.html
+- ChatGPT Response Scraper: https://coreclaw.netlify.app/workers/chatgpt-scraper.html
+- Claude Response Scraper: https://coreclaw.netlify.app/workers/claude-scraper.html
+- Perplexity AI Scraper: https://coreclaw.netlify.app/workers/perplexity-scraper.html
+- Google Scholar Scraper: https://coreclaw.netlify.app/workers/scholar-scraper.html
+- arXiv Paper Scraper: https://coreclaw.netlify.app/workers/arxiv-scraper.html
+- Semantic Scholar Scraper: https://coreclaw.netlify.app/workers/semantic-scholar-scraper.html
+- PubMed Scraper: https://coreclaw.netlify.app/workers/pubmed-scraper.html
+- SEO Audit Tool: https://coreclaw.netlify.app/workers/seo-audit-tool.html
+- On-Page Content Checker: https://coreclaw.netlify.app/workers/content-checker.html
+- Username Finder: https://coreclaw.netlify.app/workers/username-finder.html
+- Website Screenshot API: https://coreclaw.netlify.app/workers/screenshot-api.html
+- PDF Text Extractor: https://coreclaw.netlify.app/workers/pdf-extractor.html
+- HTML to Markdown Converter: https://coreclaw.netlify.app/workers/html-to-markdown.html
+- JavaScript Renderer: https://coreclaw.netlify.app/workers/javascript-renderer.html
+- IP Address Lookup: https://coreclaw.netlify.app/workers/ip-lookup.html
+- QR Code Generator: https://coreclaw.netlify.app/workers/qr-code-generator.html
+- Website Availability Checker: https://coreclaw.netlify.app/workers/web-tester.html
+- Color Palette Extractor: https://coreclaw.netlify.app/workers/color-picker.html
+- Financial Data Scraper: https://coreclaw.netlify.app/workers/finance-data.html
+- Stock Price Scraper: https://coreclaw.netlify.app/workers/stock-price-scraper.html
+- SEC Filing Scraper: https://coreclaw.netlify.app/workers/sec-filing-scraper.html
+- Crypto Price Scraper: https://coreclaw.netlify.app/workers/crypto-price-scraper.html
+- Forex Rate Scraper: https://coreclaw.netlify.app/workers/forex-scraper.html
+- Earnings Call Scraper: https://coreclaw.netlify.app/workers/earnings-scraper.html
+- Insider Trading Scraper: https://coreclaw.netlify.app/workers/insider-trading-scraper.html
+- Financial News Scraper: https://coreclaw.netlify.app/workers/financial-news-scraper.html
+- Zillow Property Scraper: https://coreclaw.netlify.app/workers/zillow-scraper.html
+- Redfin Property Scraper: https://coreclaw.netlify.app/workers/redfin-scraper.html
+- Realtor.com Scraper: https://coreclaw.netlify.app/workers/realtor-scraper.html
+- Airbnb Listing Scraper: https://coreclaw.netlify.app/workers/airbnb-scraper.html
+- Property Tax Data Scraper: https://coreclaw.netlify.app/workers/property-tax-scraper.html
+- Online Course Scraper: https://coreclaw.netlify.app/workers/course-scraper.html
+- Book Metadata Scraper: https://coreclaw.netlify.app/workers/book-scraper.html
+- University Program Scraper: https://coreclaw.netlify.app/workers/university-scraper.html
+- Scholarship Scraper: https://coreclaw.netlify.app/workers/scholarship-scraper.html
+- Certification Scraper: https://coreclaw.netlify.app/workers/certification-scraper.html
+- BBC News Scraper: https://coreclaw.netlify.app/workers/bbc-scraper.html
+- CNN News Scraper: https://coreclaw.netlify.app/workers/cnn-scraper.html
+- Reuters News Scraper: https://coreclaw.netlify.app/workers/reuters-scraper.html
+- TechCrunch Scraper: https://coreclaw.netlify.app/workers/techcrunch-scraper.html
+- Hacker News Scraper: https://coreclaw.netlify.app/workers/hackernews-scraper.html
+- New York Times Scraper: https://coreclaw.netlify.app/workers/nyt-scraper.html
+- The Guardian Scraper: https://coreclaw.netlify.app/workers/guardian-scraper.html
+- Medium Article Scraper: https://coreclaw.netlify.app/workers/medium-scraper.html
+- Substack Newsletter Scraper: https://coreclaw.netlify.app/workers/substack-scraper.html
+- RSS Feed Scraper: https://coreclaw.netlify.app/workers/rss-feed-scraper.html
+- Podcast Episode Scraper: https://coreclaw.netlify.app/workers/podcast-scraper.html
+- Press Release Scraper: https://coreclaw.netlify.app/workers/press-release-scraper.html
+
+## API Usage
+
+All workers are available via the CoreClaw platform. Visit https://www.coreclaw.com/?fpr=chris69 for API access and documentation.
+
+## Contact
+
+Visit https://www.coreclaw.com/?fpr=chris69

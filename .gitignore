@@ -1,2 +1,7 @@
-__pycache__/
-*.py[cod]
+node_modules/
+.wrangler/
+.dev.vars
+dist/
+*.log
+.env
+.env.*
