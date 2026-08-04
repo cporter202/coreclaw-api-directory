@@ -1,0 +1,25 @@
+{
+  "name": "coreclaw-api-directory",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:setup": "wrangler d1 execute coreclaw-db --local --file=./migrations/0001_init.sql && wrangler d1 execute coreclaw-db --local --file=./migrations/0003_fts.sql && wrangler d1 execute coreclaw-db --local --file=./migrations/0002_seed.sql && wrangler d1 execute coreclaw-db --local --file=./migrations/0004_rebuild_fts.sql",
+    "db:setup:remote": "wrangler d1 execute coreclaw-db --remote --file=./migrations/0001_init.sql && wrangler d1 execute coreclaw-db --remote --file=./migrations/0003_fts.sql && wrangler d1 execute coreclaw-db --remote --file=./migrations/0002_seed.sql && wrangler d1 execute coreclaw-db --remote --file=./migrations/0004_rebuild_fts.sql",
+    "db:init": "wrangler d1 execute coreclaw-db --local --file=./migrations/0001_init.sql",
+    "db:init:remote": "wrangler d1 execute coreclaw-db --remote --file=./migrations/0001_init.sql",
+    "db:seed": "wrangler d1 execute coreclaw-db --local --file=./migrations/0002_seed.sql",
+    "db:seed:remote": "wrangler d1 execute coreclaw-db --remote --file=./migrations/0002_seed.sql",
+    "typecheck": "tsc --noEmit",
+    "build:pages": "node scripts/build-site.js"
+  },
+  "dependencies": {
+    "hono": "^4.4.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240620.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^3.60.0"
+  }
+}

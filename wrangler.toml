@@ -1,0 +1,25 @@
+name = "coreclaw-api-directory"
+main = "src/index.ts"
+compatibility_date = "2024-06-20"
+
+[vars]
+ENVIRONMENT = "development"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "coreclaw-db"
+database_id = "placeholder-replace-with-actual-id"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "dev-kv-local"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "coreclaw-assets"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[env.staging]
+vars = { ENVIRONMENT = "staging" }
