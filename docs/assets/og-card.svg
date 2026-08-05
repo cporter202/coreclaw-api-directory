@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F1C"/>
+      <stop offset="0.55" stop-color="#101826"/>
+      <stop offset="1" stop-color="#182234"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="90" r="220" fill="#2DD4BF" opacity="0.06"/>
+  <circle cx="140" cy="560" r="260" fill="#22D3EE" opacity="0.05"/>
+  <rect x="60" y="54" width="12" height="46" rx="6" fill="url(#accent)"/>
+  <text x="92" y="92" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#EFF4FB">CoreClaw</text>
+  <text x="92" y="128" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#2DD4BF" letter-spacing="4">API DIRECTORY</text>
+  <text x="92" y="280" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="bold" fill="#FFFFFF">118 production-ready</text>
+  <text x="92" y="356" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="bold" fill="#FFFFFF">scraping APIs</text>
+  <text x="92" y="420" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#A9B6CC">Free directory · live health scores · sorted by category</text>
+  <rect x="92" y="470" width="560" height="12" rx="6" fill="#22304A"/>
+  <rect x="92" y="470" width="420" height="12" rx="6" fill="url(#accent)"/>
+  <text x="92" y="540" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#5EEAD4">coreclaw.netlify.app</text>
+</svg>

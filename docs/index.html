@@ -3,11 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="4cSehcUsHcNcNCeQ0DFm3XfXHawbhuy1zE4PxC52bUo">
 <title>CoreClaw API Directory — 118 Web Scraping &amp; Data Extraction APIs</title>
 <meta name="description" content="Browse 118 production-ready API workers for web scraping, data extraction, and automation. E-commerce, social media, search, jobs, leads, AI, and more.">
 <meta property="og:title" content="CoreClaw API Directory">
 <meta property="og:description" content="118 production-ready API workers for web scraping, data extraction, and automation.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://coreclaw.netlify.app/assets/og-card.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://coreclaw.netlify.app/assets/og-card.svg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "CoreClaw API Directory",
+  "url": "https://coreclaw.netlify.app/",
+  "description": "Free directory of 118 production-ready web scraping and data extraction APIs with health scores.",
+  "potentialAction": {"@type": "SearchAction", "target": "https://coreclaw.netlify.app/#search?q={search_term_string}", "query-input": "required name=search_term_string"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CoreClaw API Directory",
+  "url": "https://coreclaw.netlify.app/",
+  "logo": "https://coreclaw.netlify.app/assets/og-card.svg"
+}
+</script>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://coreclaw.netlify.app/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,6 +146,12 @@ header{background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-fil
 
 /* Sections */
 .categories-section{padding:52px 20px 10px}
+.guides-section{padding:52px 20px 10px}
+.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;max-width:1000px;margin:0 auto}
+.rel-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-s);padding:14px;transition:all .2s;box-shadow:var(--shadow-s);display:block}
+.rel-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-m);border-color:var(--accent)}
+.rel-card .rc-name{font-weight:600;font-size:.88rem;color:var(--ink);display:block;margin-bottom:4px}
+.rel-card .rc-cat{font-family:var(--font-m);font-size:.62rem;color:var(--accent-ink);text-transform:uppercase;letter-spacing:.12em}
 .section-title{font-family:var(--font-d);font-size:1.45rem;font-weight:700;text-align:center;margin-bottom:8px;letter-spacing:-.01em}
 .section-sub{font-family:var(--font-m);font-size:.72rem;color:var(--ink3);text-align:center;margin-bottom:30px}
 .category-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:12px;max-width:1000px;margin:0 auto}
@@ -245,6 +276,23 @@ footer a{color:var(--accent)}
     <h2 class="section-title">Browse by Category</h2>
     <p class="section-sub">11 curated categories · 118 workers</p>
     <div class="category-grid" id="categoryGrid"></div>
+  </div>
+</section>
+
+<section class="guides-section" id="guides">
+  <div class="container">
+    <h2 class="section-title">Guides &amp; How-To</h2>
+    <p class="section-sub">Practical guides for picking the right scraping API</p>
+    <div class="guide-grid">
+      <a class="rel-card" href="guides/best-web-scraping-apis"><span class="rc-name">Best Web Scraping APIs in 2026</span><span class="rc-cat">Overview</span></a>
+      <a class="rel-card" href="guides/instagram-scraper-api"><span class="rc-name">Instagram Scraper API</span><span class="rc-cat">Social</span></a>
+      <a class="rel-card" href="guides/tiktok-scraper-api"><span class="rc-name">TikTok Scraper API</span><span class="rc-cat">Social</span></a>
+      <a class="rel-card" href="guides/amazon-price-tracking-api"><span class="rc-name">Amazon Price Tracking API</span><span class="rc-cat">E-Commerce</span></a>
+      <a class="rel-card" href="guides/google-maps-scraper-lead-generation"><span class="rc-name">Google Maps Scraper for Lead Gen</span><span class="rc-cat">Leads</span></a>
+      <a class="rel-card" href="guides/linkedin-scraper-api"><span class="rc-name">LinkedIn Scraper API</span><span class="rc-cat">Jobs</span></a>
+      <a class="rel-card" href="guides/youtube-scraper-api"><span class="rc-name">YouTube Scraper API</span><span class="rc-cat">Social</span></a>
+      <a class="rel-card" href="guides/web-scraping-without-code"><span class="rc-name">Web Scraping Without Code</span><span class="rc-cat">Beginner</span></a>
+    </div>
   </div>
 </section>
 

@@ -149,6 +149,20 @@
 - Podcast Episode Scraper: https://coreclaw.netlify.app/workers/podcast-scraper.html
 - Press Release Scraper: https://coreclaw.netlify.app/workers/press-release-scraper.html
 
+## Guides
+- Best Web Scraping APIs in 2026: https://coreclaw.netlify.app/guides/best-web-scraping-apis.html
+- Instagram Scraper API — How to Extract Instagram Data: https://coreclaw.netlify.app/guides/instagram-scraper-api.html
+- TikTok Scraper API — Extract TikTok Data Without Official API: https://coreclaw.netlify.app/guides/tiktok-scraper-api.html
+- Amazon Price Tracking API — Monitor Prices Automatically: https://coreclaw.netlify.app/guides/amazon-price-tracking-api.html
+- Google Maps Scraper for Lead Generation: https://coreclaw.netlify.app/guides/google-maps-scraper-lead-generation.html
+- LinkedIn Scraper API — Jobs, Companies & Profiles: https://coreclaw.netlify.app/guides/linkedin-scraper-api.html
+- YouTube Scraper API — Video, Channel & Comment Data: https://coreclaw.netlify.app/guides/youtube-scraper-api.html
+- Reddit Scraper API — Posts, Comments & Subreddits: https://coreclaw.netlify.app/guides/reddit-scraper-api.html
+- Shopify Product Data Scraper — Extract Store Catalogs: https://coreclaw.netlify.app/guides/shopify-product-data-scraper.html
+- Email Finder API — Find Business Emails for Lead Gen: https://coreclaw.netlify.app/guides/email-finder-api.html
+- Job Board Scraper API — Indeed, Glassdoor & More: https://coreclaw.netlify.app/guides/job-board-scraper-api.html
+- Web Scraping Without Code — Complete Beginner Guide: https://coreclaw.netlify.app/guides/web-scraping-without-code.html
+
 ## API Usage
 
 All workers are available via the CoreClaw platform. Visit https://www.coreclaw.com/?fpr=chris69 for API access and documentation.
