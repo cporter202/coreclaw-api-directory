@@ -575,7 +575,7 @@ const HEADER = `<header>
 const FOOTER = `<footer>
   <div class="container">
     <p class="footer-mono">CoreClaw API Directory · Free · Affiliate-supported</p>
-    <p><a href="https://www.coreclaw.com/?fpr=chris69" target="_blank" rel="noopener nofollow sponsored">Visit CoreClaw</a> · <a href="../llms.txt">llms.txt</a> · <a href="../sitemap.xml">sitemap</a></p>
+    <p><a href="https://www.coreclaw.com/?fpr=chris69" target="_blank" rel="noopener nofollow sponsored">Visit CoreClaw</a> · <a href="../about.html">About</a> · <a href="../llms.txt">llms.txt</a> · <a href="../sitemap.xml">sitemap</a></p>
   </div>
 </footer>`;
 
@@ -890,7 +890,7 @@ ${HEADER}
 <main class="container">
   <div class="crumb"><a href='/'>Home</a><span>›</span><a href='/#guides'>Guides</a><span>›</span>${esc(g.title)}</div>
   <h1>${esc(g.h1)}</h1>
-  <div class="guide-byline">Updated August 2026 · CoreClaw API Directory</div>
+  <div class="guide-byline">Updated August 2026 · <a href="/about.html">CoreClaw API Directory</a></div>
   <p class="guide-intro">${esc(g.intro)}</p>
   <div class="cta-wrap">
     <a class="cta" href="https://www.coreclaw.com/?fpr=chris69" target="_blank" rel="noopener nofollow sponsored">Browse all APIs on CoreClaw →</a>

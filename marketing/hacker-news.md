@@ -16,6 +16,7 @@ I built a directory of 118 web scraping and data extraction APIs. It's free to u
 **Features:**
 - Instant search across names, descriptions, and keywords
 - 11 category pages, 118 per-worker detail pages
+- 12 in-depth guides (best scraping APIs 2026, no-code scraping, platform-specific how-tos) with FAQ schema
 - Health scores showing which APIs are working
 - llms.txt + sitemap.xml for AI crawlers and Google
 - Click tracking via localStorage (no backend)
@@ -35,7 +36,7 @@ E-Commerce (17), Social (21), Search/Maps (8), Jobs (11), Leads (12), AI/Researc
 **Revenue model:** Affiliate links. Every tool link has a referral tag. Free directory, commission on signups. Transparently marked (`rel="sponsored"`).
 
 Live: https://coreclaw.netlify.app/
-Source: https://github.com/cporter202/coreclaw-api-directory
+Source: https://github.com/marouanedaouyny-prog/coreclaw-api-directory
 
 Would love feedback on the architecture and any tools I'm missing.
 

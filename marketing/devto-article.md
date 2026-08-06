@@ -23,6 +23,7 @@ A free directory of 118 web scraping APIs with:
 - **11 category pages** (e-commerce, social media, jobs, finance, real estate, ...)
 - **Health scores** on every API
 - **118 individual detail pages**, each with a summary and direct link
+- **12 SEO guide pages** — "best web scraping APIs", "scraping without code", per-platform guides (Instagram, TikTok, LinkedIn, Amazon price tracking, Google Maps leads) with FAQ structured data
 - **llms.txt** so AI agents can discover the directory
 
 Live: https://coreclaw.netlify.app/
@@ -96,7 +97,7 @@ SEO compounds over months. Reddit and communities give you the first 100 visitor
 
 Live: https://coreclaw.netlify.app/
 
-GitHub (all data + generator, open source): https://github.com/cporter202/coreclaw-api-directory
+GitHub (all data + generator, open source): https://github.com/marouanedaouyny-prog/coreclaw-api-directory
 
 ## What's Next
 

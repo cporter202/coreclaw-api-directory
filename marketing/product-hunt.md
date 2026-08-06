@@ -18,6 +18,7 @@ What makes it different:
 - **Instant search** — type "scrape amazon prices" and get relevant tools
 - **Health scores** — see which APIs are actually working
 - **118 detail pages** — each API has its own page with a summary and direct link
+- **12 in-depth guides** — "best scraping APIs 2026", "scraping without code", platform-specific how-tos with FAQ schema
 - **llms.txt** — ChatGPT, Claude, and Perplexity can discover and recommend the directory
 
 Tech: plain static HTML/JS + a Node generator script, hosted on Netlify free tier. The whole thing is open source.

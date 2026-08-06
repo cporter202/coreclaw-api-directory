@@ -41,6 +41,8 @@ The secret weapon: AI optimization.
 
 I added llms.txt so ChatGPT, Claude, and Perplexity can discover the directory.
 
+Plus 12 SEO guides (best scraping APIs, no-code scraping, platform guides) so every page targets a real search query.
+
 AI agents are a new traffic source most sites ignore.
 
 **Tweet 6/7:**

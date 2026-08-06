@@ -19,6 +19,7 @@ What it does:
 - **11 category pages** (e-commerce, social, search, jobs, leads, finance, real estate...)
 - **Health scores** on every API so you can see what's actually working
 - **118 individual detail pages**, each with a description, token summary, and direct link
+- **12 in-depth guides** (best scraping APIs of 2026, scraping without code, Instagram/TikTok/LinkedIn scraper guides) with FAQ schemas — great for picking the right tool without guessing
 
 It's a static site, completely free, no account needed. Built with plain HTML/JS and a tiny Node script that generates all 130 pages from a JSON file.
 
@@ -44,7 +45,7 @@ It covers:
 
 Every API has a short summary, a health score, and a direct link. Search works across names and descriptions, and each API has its own detail page.
 
-All data is in a single JSON file (`data.json` in the repo), so it's easy to consume programmatically: https://github.com/cporter202/coreclaw-api-directory
+All data is in a single JSON file (`data.json` in the repo), so it's easy to consume programmatically: https://github.com/marouanedaouyny-prog/coreclaw-api-directory
 
 Live site: https://coreclaw.netlify.app/
 
@@ -124,7 +125,7 @@ Built a directory of 118 web scraping APIs. Breakdown:
 - Static HTML/CSS/JS — no framework, no build step for the site itself
 - Node script (`build-site.js`) generates 130 pages from `data.json`
 - Hosted on Netlify free tier
-- Repo is public: https://github.com/cporter202/coreclaw-api-directory
+- Repo is public: https://github.com/marouanedaouyny-prog/coreclaw-api-directory
 
 **Revenue model:**
 - Affiliate links to CoreClaw ($2-15/conversion)
@@ -186,7 +187,7 @@ Built an open source directory of 118 web scraping APIs.
 
 **Deploy it anywhere (it's static):**
 ```bash
-git clone https://github.com/cporter202/coreclaw-api-directory
+git clone https://github.com/marouanedaouyny-prog/coreclaw-api-directory
 cd coreclaw-api-directory
 npm install
 npm run build:pages   # regenerates all 130 pages from docs/data.json
@@ -195,4 +196,4 @@ Then host the `docs/` folder on Netlify, GitHub Pages, Cloudflare Pages, S3, or 
 
 Live demo: https://coreclaw.netlify.app/
 
-GitHub: https://github.com/cporter202/coreclaw-api-directory
+GitHub: https://github.com/marouanedaouyny-prog/coreclaw-api-directory
