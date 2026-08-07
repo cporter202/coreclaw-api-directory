@@ -54,8 +54,8 @@ Post drafts in `marketing/` when ready.
 - `marketing/LAUNCH_PLAN.md` created — command center: STEP 0 deploy (drag-drop `docs/` to app.netlify.com/drop or `netlify deploy --prod --dir=docs`; guides/about/og-card NOT live until redeploy — verified guides URL 404s live), STEP 1 GSC re-submit sitemap + request indexing 12 guides, Bing Webmaster + IndexNow, STEP 2 posting calendar (r/webdev 08:00, r/Python 09:30, HN 12:00, Dev.to 15:00, X 17:00, r/automation 19:00, PH next day 00:01 PT), STEP 3 link building (free-for-dev PR, AlternativeTo, guest posts), STEP 4 metrics (target 100+/142 indexed, 500+/day impressions)
 - `docs/about.html` — E-E-A-T page (AboutPage + BreadcrumbList schema, stats pills, contact); footer + guide byline now link to it
 - Marketing drafts updated: all GitHub source links → fork `marouanedaouyny-prog/coreclaw-api-directory`; 12-guides value prop added to reddit/hacker-news/devto/twitter/product-hunt drafts
-- Git: `cb48f97` (launch plan + about + marketing) on main → fork main (`61ce34a..cb48f97`); PR #1 now 3 commits (c5320ae + 1d8f056 + 47112de)
-- **CRITICAL: new pages in git but NOT on live site** — user must redeploy docs/ then do STEP 1 indexing before guides/about/og-card go live
+- Git: main = `cb48f97` (launch plan + about + marketing), `9cb0553` (netlify.toml) → fork main; PR #1 rebuilt to `1ff2461` → `c44525c` with checkpoint amended each time
+- **DONE: Deploy now LIVE via git link** — site connected to fork repo (`marouanedaouyny-prog/coreclaw-api-directory`, branch main, publish dir `docs`, netlify.toml added). Verified live: sitemap 142 URLs (guides included), `/guides/*` 200, `/about.html` 200, `/assets/og-card.svg` 200, homepage guides-section ✓. Auto-deploys on every `git push` to fork. NOTE: user had two GitHub accounts — Netlify must be logged in as **marouanedaouyny-prog** (not MARWAN563) or the repo won't appear for linking.
 
 ## Key commands
 - Build: `npm run build:pages` (regenerates docs/workers, docs/categories, sitemap, robots, llms.txt)
